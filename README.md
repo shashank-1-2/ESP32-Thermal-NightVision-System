@@ -16,15 +16,15 @@ Built with ESP32-CAM + MLX90640 thermal sensor for night security and wildlife m
 <table>
   <tr>
     <td align="center">
-      <img src="images/Screenshot_20260510_220645.jpg.jpeg" width="200" height="350" alt="Thermal View"/><br/>
+      <img src="images/Screenshot 2026-05-14 131505.png" width="200" height="350" alt="Thermal View"/><br/>
       <b>Thermal Heatmap</b>
     </td>
     <td align="center">
-      <img src="images/Screenshot_20260510_222355.jpg.jpeg" width="200" height="350" alt="Night Vision"/><br/>
+      <img src="images/Screenshot 2026-05-14 131329.png" width="200" height="350" alt="Night Vision"/><br/>
       <b>Night Vision Feed</b>
     </td>
     <td align="center">
-      <img src="images/Screenshot_20260510_222854.jpg.jpeg" width="200" height="350" alt="Hardware"/><br/>
+      <img src="images/WhatsApp Image 2026-05-10 at 8.29.52 PM.jpeg" width="200" height="350" alt="Hardware"/><br/>
       <b>Hardware Setup</b>
     </td>
   </tr>
