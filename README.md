@@ -92,7 +92,7 @@ Designed for security, wildlife monitoring, and industrial inspection, the syste
 ## 🏗️ System Architecture
 
 <div align="center">
-  <img src="images/System_Architecture" alt="System Architecture" width="700"/>
+  <img src="images/System_Architecture" alt="System Architecture.png" width="700"/>
 </div>
 ---
 
