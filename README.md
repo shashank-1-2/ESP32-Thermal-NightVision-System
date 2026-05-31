@@ -17,7 +17,7 @@ Built with ESP32-CAM + MLX90640 thermal sensor for night security and wildlife m
   <tr>
     <!-- Hardware Setup on LEFT (tall, spans 2 rows) -->
     <td align="center" rowspan="2">
-      <img src="images/WhatsApp Image 2026-05-10 at 8.29.52 PM.jpeg" width="250" height="450" alt="Hardware"/><br/>
+      <img src="images/Hardware_Setup" width="250" height="450" alt="Hardware"/><br/>
       <b>Hardware Setup</b>
     </td>
     <!-- Thermal Heatmap on TOP RIGHT -->
