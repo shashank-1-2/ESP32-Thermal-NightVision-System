@@ -187,15 +187,15 @@ const char* password = "YOUR_WIFI_PASSWORD";
 <table>
   <tr>
     <td align="center">
-      <img src="images/Combined_1" width="280" height="420" alt="Result 1"/><br/>
+      <img src="images/Combined_1" width="280" height="620" alt="Result 1"/><br/>
       <b>Demo - Scene 1</b>
     </td>
     <td align="center">
-      <img src="images/Combined_2" width="280" height="420" alt="Result 2"/><br/>
+      <img src="images/Combined_2" width="280" height="620" alt="Result 2"/><br/>
       <b>Demo - Scene 2</b>
     </td>
     <td align="center">
-      <img src="images/Combined_3" width="280" height="420" alt="Result 3"/><br/>
+      <img src="images/Combined_3" width="280" height="620" alt="Result 3"/><br/>
       <b>Demo - Scene 3</b>
     </td>
   </tr>
