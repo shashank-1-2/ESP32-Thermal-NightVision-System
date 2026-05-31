@@ -22,14 +22,14 @@ Built with ESP32-CAM + MLX90640 thermal sensor for night security and wildlife m
     </td>
     <!-- Thermal Heatmap on TOP RIGHT -->
     <td align="center">
-      <img src="images/Screenshot 2026-05-14 131505.png" width="300" height="210" alt="Thermal View"/><br/>
+      <img src="images/Thermal_1" width="300" height="210" alt="Thermal View"/><br/>
       <b>Thermal Heatmap</b>
     </td>
   </tr>
   <tr>
     <!-- Night Vision Feed on BOTTOM RIGHT -->
     <td align="center">
-      <img src="images/Screenshot 2026-05-14 131329.png" width="300" height="210" alt="Night Vision"/><br/>
+      <img src="images/NightVision_1" width="300" height="210" alt="Night Vision"/><br/>
       <b>Night Vision Feed</b>
     </td>
   </tr>
@@ -91,27 +91,9 @@ Designed for security, wildlife monitoring, and industrial inspection, the syste
 
 ## 🏗️ System Architecture
 
-```
-┌─────────────────┐     I2C      ┌──────────────┐
-│  MLX90640       │─────────────>│              │
-│  Thermal Sensor │              │   ESP32      │──> Serial ──> Laptop
-│  (32×24 pixels) │              │   DevKit     │
-└─────────────────┘              └──────────────┘
-
-┌─────────────────┐              ┌──────────────┐
-│  IR LEDs        │─────────────>│   ESP32-CAM  │──> WiFi ──> Browser
-│  Night Vision   │              │   + OV2640   │
-└─────────────────┘              └──────────────┘
-                                        │
-                                   WiFi Stream
-                                        ▼
-                              ┌─────────────────┐
-                              │  Web Browser    │
-                              │  Live Dashboard │
-                              │  Thermal + Video│
-                              └─────────────────┘
-```
-
+<div align="center">
+  <img src="images/System_Architecture" alt="System Architecture" width="700"/>
+</div>
 ---
 
 ## ⚙️ Installation
@@ -201,7 +183,24 @@ const char* password = "YOUR_WIFI_PASSWORD";
 
 ## 📊 Results
 
-> 📸 Add your screenshots and demo videos here!
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/Combined_1" width="210" height="160" alt="Result 1"/><br/>
+      <b>Demo - Scene 1</b>
+    </td>
+    <td align="center">
+      <img src="images/Combined_2" width="210" height="160" alt="Result 2"/><br/>
+      <b>Demo - Scene 2</b>
+    </td>
+    <td align="center">
+      <img src="images/Combined_3" width="210" height="160" alt="Result 3"/><br/>
+      <b>Demo - Scene 3</b>
+    </td>
+  </tr>
+</table>
+</div>
 
 **Performance Metrics:**
 
